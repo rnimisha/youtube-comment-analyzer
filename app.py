@@ -50,3 +50,7 @@ if submitted:
         render_video_details(video_details)
         render_stat_cards(video_details, positive_count, negative_count)
         render_sentiment_bar(positive_pct, negative_pct)
+        render_top_comments(result_df)
+        render_most_liked_comments(result_df)
+        render_sentiment_distribution_chart(result_df)
+        render_avg_like_chart(result_df)
