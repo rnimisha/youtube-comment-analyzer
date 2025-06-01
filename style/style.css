@@ -1,0 +1,78 @@
+body {
+  background: #1a1e2e;
+  color: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.stApp {
+  background: #1a1e2e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #f1f1f1;
+}
+
+.stTextInput > div > input,
+.stNumberInput > div > input {
+  border-radius: 12px;
+  height: 2.8em;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.07);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0 1em;
+}
+
+.stTextInput > div > input::placeholder,
+.stNumberInput > div > input::placeholder {
+  color: #aaa;
+}
+
+.stButton > button {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 0.7rem 2rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.stButton > button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.03);
+}
+
+.clay-box {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 1.2rem;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #23283e, #1c1f30);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  margin: 0.5rem;
+  color: #ffffff;
+}
+
+.stat-icon {
+  font-size: 1.6rem;
+  margin-bottom: 0.3rem;
+  color: #6ee7b7;
+}
+
+.stat-value {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #e0e0e0;
+}
