@@ -9,3 +9,4 @@ __pycache__
 .env
 model/*.npy
 model/*.npz
+model/both_fine_tune_classifier_*.pt
